@@ -13,6 +13,8 @@ main {
     background-color: white;
     width: 500px;
     margin: auto;
+    min-width: 300px;
+    max-width: 800px;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.450);
 }
@@ -27,6 +29,10 @@ h2 {
     color: rgb(58, 0, 112);
 }
 
+img.lado {
+    float: right;
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
@@ -36,4 +42,19 @@ a {
 a:hover {
     text-decoration: underline;
     color: rgb(26, 26, 255);
+}
+
+div.video {
+    margin: 0px -20px 30px;
+    padding: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
